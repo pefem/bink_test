@@ -46,12 +46,13 @@ class QuestionSections:
         print(f"total_rent: {total}")
 
 
-
+    # output in json format
     def q3_section_a(self):
         
         print(json.dumps(self.tenant_mast_data, indent=4))
 
 
+    # output with formatted dates
     def q4_section_a(self):
 
         for item in self.startdate_range:
